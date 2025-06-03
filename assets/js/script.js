@@ -33,15 +33,7 @@ const pengirim = "Si Bontot";
 const nomorWa = "6281230189010" // awalan nomor 0 harus di awalin 62
 const textWa = "Anak sulung"
 const pesan = `Semoga apapun yang kamu harapkan bisa terwujud di waktu yang tepat yaa.
-Do'a baik selalu menyertaimu.
-
-Hari ini, usiamu bertumbuh seperti bunga mawar.
-
-Yang terus belajar membuka diri pada matahari.
-
-Bukan karena paksaan waktu,
-
-Namun karena cintamu pada dirimu sendiri untuk menjadi manusia seutuhnya.
+<p>Do'a baik selalu menyertaimu.<br>Hari ini, usiamu bertumbuh seperti bunga mawar.<br> Yang terus belajar membuka diri pada matahari.<br>Bukan karena paksaan waktu,<br>Namun karena cintamu pada dirimu sendiri untuk menjadi manusia seutuhnya.</p>
 
 Hadirmu di dunia, bukan sekedar anak dari rahim dan darah.
 Rahasia dari Sang Ilahi yang telah dibisikkan ke dunia.
