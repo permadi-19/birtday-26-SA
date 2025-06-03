@@ -36,8 +36,11 @@ const pesan = `Semoga apapun yang kamu harapkan bisa terwujud di waktu yang tepa
 Do'a baik selalu menyertaimu.
 
 Hari ini, usiamu bertumbuh seperti bunga mawar.
+
 Yang terus belajar membuka diri pada matahari.
+
 Bukan karena paksaan waktu,
+
 Namun karena cintamu pada dirimu sendiri untuk menjadi manusia seutuhnya.
 
 Hadirmu di dunia, bukan sekedar anak dari rahim dan darah.
