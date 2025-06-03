@@ -56,8 +56,8 @@ body {
   text-align: center;
   justify-content: center;
   height: 100vh;
-
-  overflow: hidden;
+  -index: -999;
+  
 }
 
 #waktu {
