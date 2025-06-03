@@ -106,15 +106,18 @@ body {
   padding: 5px 15px;
 }
 
-#button button.hilang2{
+#button button.hilang2 {
   font-size: 20px;
-  color:white;
+  color: white;
   background: rgb(19, 138, 54);
   font-family: 'Fredoka';
   border-style: none;
   border-radius: 0.5rem;
-  padding: 5px 15px;
+  padding: 10px 20px;
+  line-height: 1.2;
+  display: inline-block;
 }
+
 
 .goyang {
   animation: goyang 1200ms infinite ease;
