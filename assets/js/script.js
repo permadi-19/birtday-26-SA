@@ -32,30 +32,9 @@ jam.innerHTML = `${hour}:${minutes}`
 const pengirim = "Si Bontot";
 const nomorWa = "6281230189010" // awalan nomor 0 harus di awalin 62
 const textWa = "Anak sulung"
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8">
-  <title>Pesan Ulang Tahun</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      line-height: 1.6;
-      padding: 20px;
-    }
-    p {
-      margin-bottom: 20px;
-    }
-  </style>
-</head>
-<body>
-
-  <div id="pesan-output"></div>
-
-  <script>
-    const pesan = `Semoga apapun yang kamu harapkan bisa terwujud di waktu yang tepat yaa.
-
+const pesan = `Semoga apapun yang kamu harapkan bisa terwujud di waktu yang tepat yaa.
 Do'a baik selalu menyertaimu.
+
 Hari ini, usiamu bertumbuh seperti bunga mawar.
 Yang terus belajar membuka diri pada matahari.
 Bukan karena paksaan waktu,
@@ -75,27 +54,6 @@ Bertumbuhnya dirimu adalah rahasia Sang Ilahi.
 Langkahmu adalah tarian menuju Yang Esa.
 
 -Dari Si Bontot-`;
-
-    // Pisahkan per paragraf (berdasarkan 2x enter)
-    const paragrafList = pesan.split(/\n\s*\n/);
-
-    const container = document.getElementById("pesan-output");
-
-    // Tampilkan ke HTML
-    paragrafList.forEach(paragraf => {
-      const p = document.createElement("p");
-
-      // Ganti newline (\n) dalam paragraf menjadi <br>
-      const isi = paragraf.split('\n').join('<br>');
-
-      p.innerHTML = isi;
-      container.appendChild(p);
-    });
-  </script>
-
-</body>
-</html>
-
 
 if (pengirim) {
   nama.innerHTML = pengirim;
@@ -161,4 +119,3 @@ hilang1.addEventListener('click', () => {
 hilang2.addEventListener('click', () => {
   window.open(`https://wa.me/${nomorWa}/?text=${textWa}`, '_blank')
 })
-
